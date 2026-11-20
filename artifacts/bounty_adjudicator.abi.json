@@ -1,0 +1,134 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "adjudicate_pr": {
+      "params": [
+        [
+          "bounty_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "dict",
+      "payable": false
+    },
+    "claim_bounty": {
+      "params": [
+        [
+          "bounty_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "create_bounty": {
+      "params": [
+        [
+          "title",
+          "string"
+        ],
+        [
+          "repo_url",
+          "string"
+        ],
+        [
+          "spec",
+          "string"
+        ],
+        [
+          "acceptance_rubric",
+          "string"
+        ],
+        [
+          "reward_amount",
+          "int"
+        ],
+        [
+          "deadline_ts",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "int",
+      "payable": false
+    },
+    "expire_and_refund": {
+      "params": [
+        [
+          "bounty_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "get_all_bounties": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": [
+        {
+          "$rep": "dict"
+        }
+      ]
+    },
+    "get_bounty": {
+      "params": [
+        [
+          "bounty_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "get_contributor_stats": {
+      "params": [
+        [
+          "contributor",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "get_leaderboard": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": [
+        {
+          "$rep": "dict"
+        }
+      ]
+    },
+    "submit_pr": {
+      "params": [
+        [
+          "bounty_id",
+          "int"
+        ],
+        [
+          "pr_url",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    }
+  }
+}

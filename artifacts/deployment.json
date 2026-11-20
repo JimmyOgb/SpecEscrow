@@ -1,0 +1,62 @@
+{
+  "network": "GenLayer StudioNet",
+  "rpcUrl": "https://studio-next.genlayer.com/api",
+  "chainId": 61997,
+  "contractAddress": "0x6a120cead2e3F7d6b988938969F40fe57676Ad4C",
+  "deployer": "0xE4220c4b71877bb94EB173f467ef5c5557017085",
+  "contributor": "0x2c7536E3605D9C16a7a3D7b1898e529396a65c23",
+  "transactions": {
+    "deploy": "0x8804a1bc75fb3f56d343984049aae356bfc2010329f01f50463cd0b23f2cb18d",
+    "createBounty": "0xae51283dac5c6ed63db33d12cf8bdc5fea35f2b129c6224dd5cc0587d94f4e5b",
+    "claimBounty": "0xb5db5240a800cf6c1745532efa9d446dea669ef3f8fa484119a495a0c5f45bda",
+    "submitPr": "0x1171ebeaa3f3ccb9b5f25ef1d7f45ea6998c3c84fdb6bed20c320e33bf8b306d",
+    "adjudicatePr": "0xf28b25793f5d123f0fc75a8c7e1c637794f3e0f3e89f63ab364f57f6c7b0fdfc"
+  },
+  "verifiedLiveBounty": {
+    "acceptance_rubric": "Must contain Ethereum Provider JavaScript API definitions, request method interface, and JSON-RPC error codes.",
+    "bounty_id": 3,
+    "contributor": "0x2c7536E3605D9C16a7a3D7b1898e529396a65c23",
+    "deadline_ts": 1795766319,
+    "missing_criteria": [
+      "Explicit JSON-RPC error codes and their meanings; the supplied excerpt references an Error Standards section but does not include it.",
+      "Complete specification document; the submitted content ends mid-sentence in the RPC Errors section and omits subsequent sections, including event API definitions."
+    ],
+    "pr_url": "https://raw.githubusercontent.com/ethereum/EIPs/master/EIPS/eip-1193.md",
+    "reasoning": "The supplied content includes Ethereum Provider definitions, the typed request interface, Promise behavior, and several provider-specific error codes. However, it is truncated before completing the error specification and does not include the referenced JSON-RPC error standards or the remaining API sections, so the supplied deliverable does not satisfy the requirement for the complete official specification.",
+    "repo_url": "https://github.com/ethereum/EIPs",
+    "reward_amount": 500,
+    "score": 65,
+    "spec": "Deliver the official Ethereum Provider JavaScript API specification document.",
+    "sponsor": "0xE4220c4b71877bb94EB173f467ef5c5557017085",
+    "status": "REVISION_NEEDED",
+    "title": "EIP-1193 Ethereum Provider Specification Deliverable",
+    "verdict": "REVISION_NEEDED"
+  },
+  "contributorStats": {
+    "approved_bounties": 0,
+    "avg_score": 0,
+    "contributor": "0x2c7536E3605D9C16a7a3D7b1898e529396a65c23",
+    "rejected_bounties": 1,
+    "total_earned": 0,
+    "total_score": 0
+  },
+  "leaderboard": [
+    {
+      "approved_bounties": 0,
+      "avg_score": 0,
+      "contributor": "0xa5bC3717D6b516C82446441Fb2d492d11a52816d",
+      "rejected_bounties": 0,
+      "total_earned": 0,
+      "total_score": 0
+    },
+    {
+      "approved_bounties": 0,
+      "avg_score": 0,
+      "contributor": "0x2c7536E3605D9C16a7a3D7b1898e529396a65c23",
+      "rejected_bounties": 1,
+      "total_earned": 0,
+      "total_score": 0
+    }
+  ],
+  "timestamp": 1795161753
+}
